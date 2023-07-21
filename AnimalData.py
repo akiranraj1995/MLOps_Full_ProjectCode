@@ -149,7 +149,7 @@ def main():
     input_folder_id = ' ' # REPLACE WITH YOUR FOLDER ID HAVING TelemetryData
 
     #AnimalData -Folder
-    output_folder_id = ' ' # REPLACE WITH YOUR FOLDER ID FOR STORING PROCESSED (animal_id).csv
+    output_folder_id = ' ' # REPLACE WITH YOUR FOLDER ID FOR STORING PROCESSED (animal_id).csv AnimalData
 
 
     drive_service = authenticate_drive()
