@@ -144,13 +144,12 @@ def save_filtered_data(filtered_data, output_folder_id, column_headers):
 
 
 def main():
-    #input_folder_id = '1H409R0TBO1-GFoPrd8IJp3t1VPDHEs_s'
+
     #TelemetryData- Folder
-    input_folder_id = '1XQQQargysKZGIwu4RXHsh3f5NHwJf1le'
+    input_folder_id = ' ' # REPLACE WITH YOUR FOLDER ID HAVING TelemetryData
 
     #AnimalData -Folder
-    #output_folder_id = '1miIM_pP7WgDKlNh-mb6VuN17BmLTwJ9M'
-    output_folder_id = '12haC4wXejlezrFwqY-PcgXBkqWDsRodp'
+    output_folder_id = ' ' # REPLACE WITH YOUR FOLDER ID FOR STORING PROCESSED (animal_id).csv
 
 
     drive_service = authenticate_drive()
