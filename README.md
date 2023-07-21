@@ -4,3 +4,4 @@ MLOps Project - This project is consisting of 3 sections -->  1.[TelemetryData]-
 
 Storage used: Google Drive api and storage,
 IDE used: Google Colab
+Pre requisite: Service account for Google Drive is necessary for this project i renamed mine as "Credentials.json". Create Main folder where you want to store the TelemetryData,AnimalData,PredictedData . I have used in the above code [] as my main folder and inside it all the sub folder for storing the processed csvs [TelemetryData,AnimalData,PredictedData] .
