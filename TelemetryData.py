@@ -23,6 +23,8 @@ def authenticate_drive(credentials_file):
 def fetch_telemetry_data(start_id, id_interval, chunk_number, drive_service, folder_id):
     # Create file name
     csv_file_name = f"chunk{chunk_number:06}.csv"
+    
+    # REPLACE THE PATH WITH YOUR MAIN FOLDER {ML_Project_MHMM} & INSIDE IT THE SUB FOLDER {TelemetryData} TO STORE THE CSV
     csv_file_path = os.path.join('/content/drive/MyDrive/ML_Project_MHMM/TelemetryData', csv_file_name)
 
     # Check if the CSV file already exists on Google Drive
@@ -101,7 +103,7 @@ def check_file_exists(drive_service, file_name, folder_id):
 def main():
     start_id = 1
     id_interval = 100000
-    folder_id = '1XQQQargysKZGIwu4RXHsh3f5NHwJf1le'
+    folder_id = ' ' # REPLACE WITH YOUR FOLDER ID
     total_chunks = 77
 
     # Load the credentials from a JSON file
