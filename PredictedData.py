@@ -21,13 +21,13 @@ import ast
 credentials_path = '/content/drive/MyDrive/Credentials.json'
 
 # TelemetryData folder ID
-telemetry_folder_id = '1XQQQargysKZGIwu4RXHsh3f5NHwJf1le'
+telemetry_folder_id = ' ' #REPLACE WITH YOUR FOLDER ID HAVING TelemetryData FOLDER ID
 
 # PredictedData- folder ID
-prediction_folder_id = '1ia6utfm-I9UjIybRNuz5KtXOGQRkoKAb'
+prediction_folder_id = ' ' #REPLACE WITH YOUR FOLDER ID WHERE YOU WANT TO STORE THE PREDICTED HIDDEN STATE RESULT
 
 #AnimalData folder
-animal_data_folder_id='12haC4wXejlezrFwqY-PcgXBkqWDsRodp'
+animal_data_folder_id= ' ' #REPLACE WITH YOUR FOLDER ID HAVING AnimalData FOLDER ID
 
 # Function to generate Scheduled_id.csv
 def generate_scheduled_id_csv(drive_service, telemetry_folder_id, parent_folder_id):
