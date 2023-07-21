@@ -7,6 +7,6 @@ IDE used: Google Colab
 Pre requisite: Service account for Google Drive is necessary for this project i renamed mine as "Credentials.json". Create Main folder where you want to store the TelemetryData,AnimalData,PredictedData . I have used in the above code [ML_Project_MHMM] as my main folder and inside it all the sub folder for storing the processed csvs [TelemetryData,AnimalData,PredictedData] .  
 
 For example :
-REPLACE THE PATH WITH YOUR MAIN FOLDER {ML_Project_MHMM} & INSIDE IT THE SUB FOLDER {TelemetryData},{AnimalData},{PredictedData} TO STORE THE CSV
+Replace the path with your main folder name i have used in the above code {ML_Project_MHMM} and inside it all the sub-folders {TelemetryData},{AnimalData},{PredictedData} to store the csv files
 csv_file_path = os.path.join('/content/drive/MyDrive/ML_Project_MHMM/TelemetryData', csv_file_name)
 
